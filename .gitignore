@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# model files are downloaded automatically
+*.task
+
+# your own recordings & outputs
+logs/
+*.mp4
+*.mov
+*.avi
+!assets/*.gif
